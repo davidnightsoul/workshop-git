@@ -4,12 +4,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba de git</title>
+    <style>
+        header{
+            display: flex;
+            flex-direction: column;
+        }
+nav{ display:flex;
+}
+nav a{
+    padding: .5rem 1rem;
+    background: orange;
+    border-radius: .5rem;
+    border: 3px solid blueviolet;
+    text-decoration: none;
+    color: rgb(107, 223, 223);
+}
+nav *+*{
+    margin-left: 1rem;
+}
+    </style>
+
 </head>
 <body>
     <header><h1>prueba de git</h1>
+        <nav>
     <a href="#">HOME</a>
     <a href="#">ABOUT</a>
     <a href="#">CONCTACT</a>
+    </nav>
     </header>
     <main><section><h2>Subtitulo</h2>(article>h3{tema del articulo}+p{lorem})</section></main>
 </body>
